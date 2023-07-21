@@ -1,0 +1,32 @@
+#body {
+  background-color: #283149;
+  text-align: center;
+}
+
+.main-heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 5rem;
+}
+
+.second-heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+
+.calculations-list {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.calculations-col {
+  color: aliceblue;
+  padding: 5rem;
+}
+
+.add-img {
+  width: 10rem;
+  height: 10rem;
+}

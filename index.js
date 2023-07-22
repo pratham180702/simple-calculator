@@ -16,6 +16,8 @@ for (var i = 0; i < document.querySelectorAll(".add-img").length; i++) {
 
       var result = resultCalculation(buttonInfo);
 
+      buttonAnimation(buttonInfo);
+
       document.querySelector(".result").innerHTML =
         "Result after " + buttonInfo + " = " + result;
     });
@@ -57,4 +59,12 @@ function mul(num1, num2) {
 
 function div(num1, num2) {
   return num1 / num2;
+}
+
+function buttonAnimation(buttonInfo) {
+  document.querySelector("." + buttonInfo).classList.add("pressed");
+
+  setTimeout(function () {
+    document.querySelector("." + buttonInfo).classList.remove("pressed");
+  }, 100);
 }

@@ -45,7 +45,7 @@
 }
 
 .add {
-  background-image: url(images/add.png);
+  background-image: url(images/icons8-plus-48.png);
   background-size: 150px;
 }
 
@@ -62,4 +62,9 @@
 .div {
   background-image: url(images/divide.png);
   background-size: 150px;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
 }

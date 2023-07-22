@@ -32,31 +32,37 @@
   <body id="body">
     <h1 class="main-heading">CALCULATOR</h1>
 
+    <button class="btn btn-outline-light number-entry">
+      Enter the numbers
+    </button>
+
     <section class="calculatons">
       <h2 class="second-heading">You can do</h2>
       <p class="calculations-list">1. Add 2. Subtract 3. Multiply 4. divide</p>
+      <p class="numbers-selected">
+        Current Numbers: <br />
+        number 1 = NA <br />
+        number 2 = NA
+      </p>
+      <p class="result numbers-selected">Result = NA</p>
     </section>
 
     <!-- calculations section -->
     <section class="main-calculations">
       <div class="row">
         <div class="calculations-col col-lg-6">
-          <button><img class="add-img" src="images/add.png" alt="" /></button>
+          <button class="add-img add">add</button>
         </div>
         <div class="calculations-col col-lg-6">
-          <button><img class="add-img" src="images/sub.png" alt="" /></button>
+          <button class="add-img sub">sub</button>
         </div>
       </div>
       <div class="row">
         <div class="calculations-col col-lg-6">
-          <button>
-            <img class="add-img" src="images/multiply.png" alt="" />
-          </button>
+          <button class="add-img mul">mul</button>
         </div>
         <div class="calculations-col col-lg-6">
-          <button>
-            <img class="add-img" src="images/divide.png" alt="" />
-          </button>
+          <button class="add-img div">div</button>
         </div>
       </div>
     </section>

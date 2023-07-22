@@ -29,4 +29,37 @@
 .add-img {
   width: 10rem;
   height: 10rem;
+  color: transparent;
+}
+
+.numbers-selected {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.result {
+  font-family: fantasy;
+  color: white;
+  font-size: 2rem;
+}
+
+.add {
+  background-image: url(images/add.png);
+  background-size: 150px;
+}
+
+.sub {
+  background-image: url(images/sub.png);
+  background-size: 150px;
+}
+
+.mul {
+  background-image: url(images/multiply.png);
+  background-size: 150px;
+}
+
+.div {
+  background-image: url(images/divide.png);
+  background-size: 150px;
 }
